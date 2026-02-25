@@ -1,28 +1,28 @@
 /* KoHo Family */
 @font-face {
   font-family: "KoHo";
-  src: url("/fonts/KoHo-Regular.ttf") format("truetype");
+  src: url("fonts/KoHo-Regular.ttf") format("truetype");
   font-weight: 400;   /* Regular */
   font-style: normal;
 }
 
 @font-face {
   font-family: "KoHo";
-  src: url("/fonts/KoHo-Medium.ttf") format("truetype");
+  src: url("fonts/KoHo-Medium.ttf") format("truetype");
   font-weight: 500;   /* Medium */
   font-style: normal;
 }
 
 @font-face {
   font-family: "KoHo";
-  src: url("/fonts/KoHo-SemiBold.ttf") format("truetype");
+  src: url("fonts/KoHo-SemiBold.ttf") format("truetype");
   font-weight: 600;   /* SemiBold */
   font-style: normal;
 }
 
 @font-face {
   font-family: "KoHo";
-  src: url("/fonts/KoHo-Bold.ttf") format("truetype");
+  src: url("fonts/KoHo-Bold.ttf") format("truetype");
   font-weight: 700;   /* Bold */
   font-style: normal;
 }
@@ -30,7 +30,7 @@
 /* Kings fam */
 @font-face {
   font-family: "Kings";
-  src: url("/fonts/Kings-Regular.ttf") format("truetype");
+  src: url("fonts/Kings-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
@@ -229,3 +229,4 @@ footer {
 }
 
 } */
+
