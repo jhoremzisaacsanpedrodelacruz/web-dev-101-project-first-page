@@ -228,14 +228,4 @@ footer {
     margin-top: 2rem;
 }
 
-/* Birds animation (floating effect) */
-/* .bird {
-    position: absolute;
-    width: 50px;
-    animation: float 6s infinite alternate;
-} */
-/* 
-@keyframes float {
-    0% { transform: translateY(0px); }
-    100% { transform: translateY(-30px); }
 } */
