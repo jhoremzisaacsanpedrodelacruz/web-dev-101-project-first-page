@@ -1,0 +1,241 @@
+/* KoHo Family */
+@font-face {
+  font-family: "KoHo";
+  src: url("/fonts/KoHo-Regular.ttf") format("truetype");
+  font-weight: 400;   /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KoHo";
+  src: url("/fonts/KoHo-Medium.ttf") format("truetype");
+  font-weight: 500;   /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KoHo";
+  src: url("/fonts/KoHo-SemiBold.ttf") format("truetype");
+  font-weight: 600;   /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KoHo";
+  src: url("/fonts/KoHo-Bold.ttf") format("truetype");
+  font-weight: 700;   /* Bold */
+  font-style: normal;
+}
+
+/* Kings fam */
+@font-face {
+  font-family: "Kings";
+  src: url("/fonts/Kings-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+/* ------[HOME CSS]------- */
+
+/* BODY? */
+* { margin:0; padding:0; box-sizing: border-box; }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #9B937C;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* NAVIGATION buttons */
+.nav-top-right{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.nav-top-left img{
+    
+    position: absolute;
+    margin-top: 1rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+nav button {
+    font-family: 'KoHo';
+    font-weight: 600;
+    margin-left: 0.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(255,255,255);
+    color:#4A4639;
+    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+nav button:hover {
+    background-color: #4A4639;
+    color: white
+}
+
+/* HERO */
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 20vh;
+    padding: 2rem;
+    background-size: contain;
+}
+
+
+.hero h1 {
+    font-family: "KoHo";
+    font-weight: 700 ;
+    font-size: 5vw;
+    justify-items: center;
+}
+
+.hero h2{
+    font-family: "KoHo";
+    font-weight: 700 ;
+    font-size: 2.5vw;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-family: 'KoHo';
+    font-weight: 500;
+    font-size: 1.2vw;
+    width: 25vw;
+    margin-bottom: 1.5rem;
+}
+
+.hero .cta {
+    display: inline-block;
+    font-family: 'KoHo';
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    background-color: #4A4639;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.hero .cta:hover {
+    background-color: #ffffff;
+    color:#4A4639
+}
+
+/* hero images */
+.hero .human-shadows{
+    position: absolute;
+    width: 100vw;
+    height: 150vh;
+    z-index: -2;
+    mix-blend-mode: multiply;
+}
+
+.hero .the-thinker{
+    position: absolute;
+    width: 30vw;
+    height: 80vh;
+    right: 2rem;
+    z-index: -1;
+}
+
+
+/* MAIN content */
+.description {
+    width: 30vw;
+}
+
+main {
+    display: block;
+    padding: 2rem;
+    background-color: #4A4639;
+}
+
+main h2 {
+    font-family: 'KoHo';
+    font-weight: 700;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+main p {
+    font-family: 'KoHo';
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+main ul {
+    font-family: 'KoHo';
+    font-weight: 500;
+
+    list-style: none;
+    padding-left: 0;
+}
+
+main ul li {
+    font-weight: 500;
+}
+
+main .birds {
+    position:absolute;
+    right: 2rem;
+    width: 50vw;
+    height: 50vh;
+    mix-blend-mode:lighten;
+}
+
+
+/* BUTTONS TEMPLATE */
+.button-1 {
+    width: 95vw;
+    font-family: 'KoHo';
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(255,255,255);
+    color:#4A4639;
+    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.button-1:hover{
+    background-color: #4a3939;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #9B937C;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Birds animation (floating effect) */
+/* .bird {
+    position: absolute;
+    width: 50px;
+    animation: float 6s infinite alternate;
+} */
+/* 
+@keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-30px); }
+} */
