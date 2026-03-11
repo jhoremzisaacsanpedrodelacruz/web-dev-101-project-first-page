@@ -1,28 +1,28 @@
 /* KoHo Family */
 @font-face {
   font-family: "KoHo";
-  src: url("./fonts/KoHo-Regular.ttf") format("truetype");
+  src: url("/fonts/KoHo-Regular.ttf") format("truetype");
   font-weight: 400;   /* Regular */
   font-style: normal;
 }
 
 @font-face {
   font-family: "KoHo";
-  src: url("./fonts/KoHo-Medium.ttf") format("truetype");
+  src: url("/fonts/KoHo-Medium.ttf") format("truetype");
   font-weight: 500;   /* Medium */
   font-style: normal;
 }
 
 @font-face {
   font-family: "KoHo";
-  src: url("./fonts/KoHo-SemiBold.ttf") format("truetype");
+  src: url("/fonts/KoHo-SemiBold.ttf") format("truetype");
   font-weight: 600;   /* SemiBold */
   font-style: normal;
 }
 
 @font-face {
   font-family: "KoHo";
-  src: url("./fonts/KoHo-Bold.ttf") format("truetype");
+  src: url("/fonts/KoHo-Bold.ttf") format("truetype");
   font-weight: 700;   /* Bold */
   font-style: normal;
 }
@@ -30,7 +30,7 @@
 /* Kings fam */
 @font-face {
   font-family: "Kings";
-  src: url("./fonts/Kings-Regular.ttf") format("truetype");
+  src: url("/fonts/Kings-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
@@ -39,7 +39,7 @@
 /* BODY? */
 * { margin:0; padding:0; box-sizing: border-box; }
 body {
-    overflow-x: hidden ;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     background-color: #9B937C;
     color: #ffffff;
@@ -47,6 +47,7 @@ body {
 }
 
 /* NAVIGATION buttons */
+
 .nav-top-right{
     position: absolute;
     top: 2rem;
@@ -55,8 +56,9 @@ body {
 
 .nav-top-left img{
     
-    position: absolute;
-    margin-top: 1rem;
+    position:absolute;
+    top:1rem;
+    left:.5rem;  
     width: 3rem;
     height: 3rem;
 }
@@ -229,7 +231,67 @@ footer {
     margin-top: 2rem;
 }
 
+
+
+
+/***************************************TIMELINES***************************************/
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.title h1{  
+    font-family: "KoHo";
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.info-block{
+    border:.4vw solid #ffffff;
+    border-top:#fff;
+    border-bottom:#fff;
+    border-right:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+    padding-left: 2rem ;
+    height: 100vh;
+
+}
+
+.info-block h2{
+    font-family: "KoHo";
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 1vw;
+}
+
+.info-block p{
+    font-family: "KoHo";
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.title .clock-melting{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    mix-blend-mode: multiply;
+}
+
+/* Birds animation (floating effect) */
+/* .bird {
+    position: absolute;
+    width: 50px;
+    animation: float 6s infinite alternate;
 } */
-
-
-
+/* 
+@keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-30px); }
+} */
